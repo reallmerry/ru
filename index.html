@@ -1,233 +1,75 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Англицизмы: Друзья или Враги?</title>
+    <title>Англицизмы - друзья.</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
         body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 20px;
         }
-        
-        .container {
-            max-width: 1200px;
+        h1 {
+            color: #333;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            max-width: 800px;
             margin: 0 auto;
         }
-        
-        header {
-            text-align: center;
-            padding: 30px 0;
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 15px;
-            margin-bottom: 30px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        h2 {
+            color: #0066cc;
         }
-        
-        h1 {
-            font-size: 2.8rem;
-            color: #2c3e50;
-            margin-bottom: 15px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        p {
+            line-height: 1.5;
         }
-        
-        .subtitle {
-            font-size: 1.4rem;
-            color: #7f8c8d;
-            margin-bottom: 20px;
+        ul {
+            padding-left: 20px;
         }
-        
-        .author {
-            font-size: 1.1rem;
-            color: #3498db;
-            font-weight: bold;
+        li {
+            margin-bottom: 5px;
         }
-        
-        .content {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            padding: 30px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-            margin-bottom: 30px;
-        }
-        
-        .memo-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 25px 0;
-            font-size: 1.1rem;
-            min-width: 600px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            border-radius: 10px;
-            overflow: hidden;
-        }
-        
-        .memo-table thead tr {
-            background-color: #3498db;
-            color: white;
-            text-align: left;
-        }
-        
-        .memo-table th,
-        .memo-table td {
-            padding: 16px 20px;
-            border: 1px solid #ddd;
-        }
-        
-        .memo-table tbody tr {
-            border-bottom: 1px solid #ddd;
-        }
-        
-        .memo-table tbody tr:nth-of-type(even) {
-            background-color: #f8f9fa;
-        }
-        
-        .memo-table tbody tr:last-of-type {
-            border-bottom: 2px solid #3498db;
-        }
-        
-        .memo-table tbody tr:hover {
-            background-color: #e3f2fd;
-        }
-        
-        .good {
-            background-color: #e8f5e8;
-            font-weight: bold;
-        }
-        
-        .bad {
-            background-color: #ffebee;
-        }
-        
-        .conclusion {
-            background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
-            color: white;
-            padding: 25px;
-            border-radius: 15px;
-            margin-top: 20px;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        }
-        
-        .conclusion h2 {
-            margin-bottom: 15px;
-            font-size: 1.8rem;
-        }
-        
         .footer {
             text-align: center;
-            padding: 20px;
-            color: white;
-            font-size: 1.1rem;
-        }
-        
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.2rem;
-            }
-            
-            .subtitle {
-                font-size: 1.1rem;
-            }
-            
-            .memo-table {
-                font-size: 0.9rem;
-            }
-            
-            .memo-table th,
-            .memo-table td {
-                padding: 12px 15px;
-            }
+            margin-top: 20px;
+            font-style: italic;
+            color: #666;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>АНГЛИЦИЗМЫ: ДРУЗЬЯ ИЛИ ВРАГИ?</h1>
-            <p class="subtitle">Интерактивная памятка по правильному использованию англицизмов в русском языке</p>
-            <p class="author">Проектная работа ученика 7-Г класса Баженова Степана</p>
-            <p class="author">Руководитель: Перминова Анна Сергеевна</p>
-        </header>
+    <h1>Англицизмы - друзья.</h1>
+    
+    <div class="content">
+        <h2>Что такое англицизмы?</h2>
+        <p>Англицизмы - это слова, которые пришли в русский язык из английского. Они помогают нам общаться быстрее и современнее.</p>
         
-        <div class="content">
-            <h2 style="text-align: center; margin-bottom: 25px; color: #2c3e50;">ПАМЯТКА ДЛЯ ШКОЛЬНИКОВ</h2>
-            
-            <table class="memo-table">
-                <thead>
-                    <tr>
-                        <th>✅ МОЖНО ИСПОЛЬЗОВАТЬ (полезные англицизмы)</th>
-                        <th>❌ ЛУЧШЕ ЗАМЕНИТЬ (есть русские аналоги)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="good">
-                        <td><strong>Блогер</strong> - нет точного русского аналога</td>
-                        <td class="bad"><strong>Окей</strong> → Хорошо, Ладно, Согласен</td>
-                    </tr>
-                    <tr class="good">
-                        <td><strong>Стример</strong> - новая профессия</td>
-                        <td class="bad"><strong>Лайк</strong> → Нравится, Понравилось</td>
-                    </tr>
-                    <tr class="good">
-                        <td><strong>Айфон</strong> - название бренда</td>
-                        <td class="bad"><strong>Сторис</strong> → Истории, История в соцсети</td>
-                    </tr>
-                    <tr class="good">
-                        <td><strong>Email</strong> - короче, чем "электронная почта"</td>
-                        <td class="bad"><strong>Хайп</strong> → Тренд, Популярность</td>
-                    </tr>
-                    <tr class="good">
-                        <td><strong>Wi-Fi</strong> - удобный технический термин</td>
-                        <td class="bad"><strong>Вайб</strong> → Настроение, Атмосфера</td>
-                    </tr>
-                    <tr class="good">
-                        <td><strong>Гаджет</strong> - коротко и понятно</td>
-                        <td class="bad"><strong>Пати</strong> → Вечеринка, Праздник</td>
-                    </tr>
-                    <tr class="good">
-                        <td><strong>Флешмоб</strong> - точное название явления</td>
-                        <td class="bad"><strong>Свэг</strong> → Стиль, Харизма</td>
-                    </tr>
-                    <tr class="good">
-                        <td><strong>Блог</strong> - коротко и понятно</td>
-                        <td class="bad"><strong>Кринж</strong> → Стыдно, Неловко</td>
-                    </tr>
-                    <tr class="good">
-                        <td><strong>Смартфон</strong> - удобно для обозначения типа телефона</td>
-                        <td class="bad"><strong>Мем</strong> → Шутка, Прикол, Фраза-шаблон</td>
-                    </tr>
-                    <tr class="good">
-                        <td><strong>Дедлайн</strong> - в профессиональной среде понятно</td>
-                        <td class="bad"><strong>Флекс</strong> → Хвастаться, Показывать</td>
-                    </tr>
-                </tbody>
-            </table>
-            
-            <div class="conclusion">
-                <h2>ГЛАВНЫЙ ВЫВОД</h2>
-                <p style="font-size: 1.3rem; margin-top: 10px;">
-                    Англицизмы — не враги и не друзья. Они просто инструмент.<br>
-                    Используй их разумно: когда это действительно нужно,<br>
-                    но не забывай о богатстве русского языка!
-                </p>
-            </div>
-        </div>
+        <h2>Почему они нужны?</h2>
+        <p>Англицизмы делают нашу речь более точной и современной. Особенно в технологиях, спорте и моде без них не обойтись.</p>
         
-        <div class="footer">
-            <p>© 2025 Баженова Степан, 7-Г класс<br>
-            МБОУ "СОШ №2" г. Глазова</p>
-        </div>
+        <h2>Примеры англицизмов:</h2>
+        <ul>
+            <li><strong>Компьютер</strong> - от computer</li>
+            <li><strong>Интернет</strong> - от internet</li>
+            <li><strong>Блог</strong> - от blog</li>
+            <li><strong>Смартфон</strong> - от smartphone</li>
+            <li><strong>Хобби</strong> - от hobby</li>
+            <li><strong>Файл</strong> - от file</li>
+        </ul>
+        
+        <h2>Как правильно использовать?</h2>
+        <p>Важно не перебарщивать с англицизмами. Нужно помнить, что русский язык богат и сам по себе. Англицизмы - это помощники, а не замена нашему языку.</p>
+        
+        <h2>Практика:</h2>
+        <p>Попробуйте найти англицизмы в текстах, песнях, рекламе. Обратите внимание, как часто мы их используем в повседневной жизни!</p>
+    </div>
+    
+    <div class="footer">
+        <p>Сделано для школьного проекта | 7 класс</p>
     </div>
 </body>
 </html>
